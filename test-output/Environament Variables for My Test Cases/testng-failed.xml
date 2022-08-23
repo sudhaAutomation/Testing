@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Environament Variables for My Test Cases]">
+  <parameter name="password" value="123456"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="emailid" value="admin@admin.com"/>
+  <parameter name="url" value="https://digitechinc.in/demos/1swishzz_staging/admin"/>
+  <test name="My Test Case(failed)">
+    <parameter name="password" value="123456"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="emailid" value="admin@admin.com"/>
+    <parameter name="url" value="https://digitechinc.in/demos/1swishzz_staging/admin"/>
+    <classes>
+      <class name="testNG.ParametersFeature">
+        <methods>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.ParametersFeature -->
+    </classes>
+  </test> <!-- My Test Case(failed) -->
+</suite> <!-- Failed suite [Environament Variables for My Test Cases] -->

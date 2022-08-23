@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Environament Variables for My Test Cases" duration-ms="4121" started-at="2022-08-17T11:20:06Z" finished-at="2022-08-17T11:20:10Z">
+    <groups>
+    </groups>
+    <test name="My Test Case" duration-ms="4121" started-at="2022-08-17T11:20:06Z" finished-at="2022-08-17T11:20:10Z">
+      <class name="testNG.ParametersFeature2">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.ParametersFeature2@c038203]" name="setUp" duration-ms="4099" started-at="2022-08-17T16:50:06Z" finished-at="2022-08-17T16:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://digitechinc.in/demos/1swishzz_staging/admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- testNG.ParametersFeature2 -->
+    </test> <!-- My Test Case -->
+  </suite> <!-- Environament Variables for My Test Cases -->
+</testng-results>
